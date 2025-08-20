@@ -42,6 +42,11 @@ func main() {
 	}
 }
 
+// @title			Pulse API
+// @version			1.0
+// @description		A responsive monitoring application for Proxmox VE that displays real-time metrics across multiple nodes
+// @host			localhost:7655
+// @BasePath		/
 func runServer() {
 	// Initialize logger
 	zerolog.TimeFieldFormat = zerolog.TimeFormatUnix
